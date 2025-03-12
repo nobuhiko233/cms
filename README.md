@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# 一个简单的后台管理系统
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 技术栈
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- 使用 Vue3 + Vite 快速构建框架
+- 使用 pinia 进行状态管理
+- 使用 Element - plus 辅助布局
+- 使用 Axios 发送请求
+
+## 功能实现
+
+- 登录、退出
+- 导航管理
+- 类别管理
+- 文章管理
+- 管理员
