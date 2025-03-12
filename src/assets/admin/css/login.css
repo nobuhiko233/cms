@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.login .el-form{
+    width: 360px;
+    height: 230px;
+    background: #fff;
+    box-shadow: 0 0 15px #88c7f8;
+    border-radius: 10px;
+}
+
+.login .el-form .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1e9eff;
+}
+
+.login .el-form .el-form-item{
+    margin-left: 30px;
+    width: 300px;
+}
+
+.login .el-form .el-form-item .button{
+    width: 300px;
+}

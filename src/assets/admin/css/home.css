@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* header样式 */
+.home .header{
+    display: flex;
+    height: 55px;
+    background: #393d49;
+}
+
+.home .header .title{
+    display: flex;
+    width: 200px;
+    background: #0c0c0c;
+}
+
+.home .header .title .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+
+.home .header .title .logo i{
+    color: lightslategray;
+    font-size: 30px;
+}
+
+.home .header .title .text{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.home .header .title .text a{
+    color: lightslategray;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home .header .info{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.home .header .info .admin{
+    display: flex;
+    color: #fff;
+    font-size: 15px;
+}
+
+.home .header .info .admin .name{
+    padding-right: 10px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.home .header .info .admin .name i{
+    color: #FF5722;
+    font-size: 13px;
+}
+
+.home .header .info .admin .logout{
+    width: 90px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background: #555c64;
+    cursor: pointer;
+}
+
+/* main 样式 */
+.home .main{
+    display: flex;
+    height: calc(100vh - 55px);
+}
+
+.home .main .side{
+    width: 200px;
+    background: #545c64;
+}
+
+.home .main .content{
+    padding: 5px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* color */
+.blue{
+    color: #1e9eff;
+}
+
+.green{
+    color: #15baaa;
+}
+
+.orange{
+    color: #feb801;
+}
+
+.red{
+    color: #f75a23;
+}
+/* 重写 ElementPlus 默认样式 */
+.el-table{
+    margin-top: 7px;
+    width: 1000px;
+}
+
+.el-breadcrumb{
+    margin-bottom: 7px;
+}
